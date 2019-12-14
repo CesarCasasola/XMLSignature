@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
+<dte:GTDocumento Version="0.4" xsi:schemaLocation="http://www.sat.gob.gt/dte/fel/0.1.0 GT_Documento-0.1.0.xsd" xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0" xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0" xmlns:n1="http://www.altova.com/samplexml/other-namespace" xmlns:dte="http://www.sat.gob.gt/dte/fel/0.1.0" xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0" xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dte:SAT ClaseDocumento="dte">
+    <dte:DTE ID="DatosCertificados">
+    <dte:DatosEmision ID="DatosEmision">
+    <dte:DatosGenerales Tipo="FACT" FechaHoraEmision="2019-08-23T14:24:58-06:00" CodigoMoneda="GTQ"/>
+    <dte:Emisor NombreEmisor="EMPRESA XX" NombreComercial="EMPRESA XX" NITEmisor="14946211" CorreoEmisor="" CodigoEstablecimiento="1" AfiliacionIVA="GEN">
+    <dte:DireccionEmisor>
+        <dte:Direccion>SAN LUCAS SACATEPEQUEZ</dte:Direccion>
+        <dte:CodigoPostal>1</dte:CodigoPostal>
+        <dte:Municipio>Guatemala</dte:Municipio>
+        <dte:Departamento>GUATEMALA</dte:Departamento>
+        <dte:Pais>GT</dte:Pais>
+    </dte:DireccionEmisor>
+    </dte:Emisor>
+<dte:Receptor NombreReceptor="JOSE ANTONIO, SOUZA DOMINGUEZ" IDReceptor="43044506" CorreoReceptor=""/>
+<dte:Frases>
+<dte:Frase TipoFrase="1" CodigoEscenario="1"/>
+<dte:Frase TipoFrase="2" CodigoEscenario="1"/>
+</dte:Frases>
+<dte:Items>
+    <dte:Item NumeroLinea="1" BienOServicio="S">
+    <dte:Cantidad>1</dte:Cantidad>
+    <dte:Descripcion>fgdfgdfg</dte:Descripcion>
+    <dte:PrecioUnitario>22</dte:PrecioUnitario>
+    <dte:Precio>22</dte:Precio>
+    <dte:Descuento>0</dte:Descuento>
+    <dte:Impuestos>
+    <dte:Impuesto>
+    <dte:NombreCorto>IVA</dte:NombreCorto>
+    <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+    <dte:MontoGravable>19.642857</dte:MontoGravable>
+    <dte:MontoImpuesto>2.357143</dte:MontoImpuesto>
+    </dte:Impuesto>
+    </dte:Impuestos>
+    <dte:Total>22</dte:Total>
+    </dte:Item>
+    <dte:Item NumeroLinea="2" BienOServicio="S">
+    <dte:Cantidad>2</dte:Cantidad>
+    <dte:Descripcion>fgdfgdfg</dte:Descripcion>
+    <dte:PrecioUnitario>22</dte:PrecioUnitario>
+    <dte:Precio>44</dte:Precio>
+    <dte:Descuento>0</dte:Descuento>
+    <dte:Impuestos>
+    <dte:Impuesto>
+    <dte:NombreCorto>IVA</dte:NombreCorto>
+    <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+    <dte:MontoGravable>19.642857</dte:MontoGravable>
+    <dte:MontoImpuesto>2.357143</dte:MontoImpuesto>
+    </dte:Impuesto>
+    </dte:Impuestos>
+    <dte:Total>22</dte:Total>
+    </dte:Item>
+</dte:Items>
+<dte:Totales>
+<dte:TotalImpuestos>
+<dte:TotalImpuesto TotalMontoImpuesto="2.357143" NombreCorto="IVA"/>
+</dte:TotalImpuestos>
+<dte:GranTotal>22</dte:GranTotal>
+</dte:Totales>
+<dte:Complementos>
+    <dte:Complemento IDComplemento="1" NombreComplemento="Exp" URIComplemento="GT_Complemento_Exportaciones-0.1.0.xsd"></dte:Complemento>
+</dte:Complementos>
+</dte:DatosEmision>
+<dte:Certificacion>
+<dte:NITCertificador>37156616</dte:NITCertificador>
+<dte:NombreCertificador>nombre</dte:NombreCertificador>
+<dte:NumeroAutorizacion Serie="FFFFFFFF" Numero="4294967295">FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</dte:NumeroAutorizacion>
+<dte:FechaHoraCertificacion></dte:FechaHoraCertificacion>
+</dte:Certificacion>
+</dte:DTE>
+</dte:SAT>
+</dte:GTDocumento>
